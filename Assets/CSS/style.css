@@ -5,7 +5,10 @@
     /*font-family: 'Lora', serif;*/
     /**/
 }
-
+hr {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 header { 
   position: fixed;
   top: 0;
@@ -17,7 +20,7 @@ header {
 }
 
 h1 {
-    font-size: 34px;
+    font-size: 40px;
     padding-left: 10px;
     font-family: 'Lora', serif;
 }
@@ -29,8 +32,6 @@ nav {
     padding-right: 10px;
     font-family: 'Lora', serif;
     font-size: 20px;
-
-
 }
 
 a:hover {
@@ -42,6 +43,9 @@ main {
   top: 50px;
 }
 
+img {
+
+}
 #about {
     border: 1px solid black;
     display: flex;
@@ -53,11 +57,31 @@ main {
 img{
     border: 1px solid black;
 }
-h2{border: 1px solid black;}
+h2{
+    border: 1px solid black;
+    font-size: 34px;
+}
 .about{border: 1px solid black;}
 
 
+#contact {
+    max-width: 1200px;
+    margin: 0 auto;
 
+    font-family: 'Lora', serif;
+}
+h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ul {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+}
+.email {
+    user-select: all;
+}
 footer {
   position: absolute;
   bottom: 0;
