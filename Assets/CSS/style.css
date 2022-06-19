@@ -4,8 +4,8 @@
     font-family: "Lora", serif;
 }
 
-hr {
-    max-width: 1200px;
+.hr1 {
+    width: 90%;
     margin: 50px auto;
 }
 
@@ -58,6 +58,8 @@ main {
 
 .greeting {
     line-height: 1.5;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -112,6 +114,8 @@ h3 {
 #firstArticle {
     width: 100%;
     border: none;
+    padding-left: 10px;
+padding-right: 10px;
 }
 
 .firstImage {
@@ -131,18 +135,25 @@ h3 {
     font-size: 20px;
 }
 
+.hr2 {
+    position: relative;
+    bottom: -110px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 #contact {
+    display: flex;
+    flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     line-height: 1.5;
     position: relative;
-    bottom: -110px;
+    bottom: -160px;
     padding-bottom: 110px;
     padding-left: 10px;
     padding-right: 10px;
 
-    display: flex;
-    flex-direction: column;
 }
 
 #contact p {
@@ -152,7 +163,7 @@ h3 {
 
 ul {
     display: flex;
-    gap: 50px;
+    justify-content: space-evenly;
     font-size: 20px;
 }
 
@@ -160,27 +171,70 @@ ul {
     user-select: all;
 }
 
-@media screen and (max-width: 1024px) {
-    header {
-        background-color: blue;
-    }
-#contact {
-    align-items: center;
-}
 
+@media screen and (max-width: 1024px) {
+    #contact {
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 768px) {
     header {
-        background-color: orange;
+        flex-direction: column;
     }
+
+    nav {
+        justify-content: center;
+    }
+
+    .workImg {
+        border: 10px solid rgb(125, 250, 250);
+    }
+
     #about {
+        flex-direction: column;
+        align-items: center;
         
+    }
+
+    .greeting {
+        align-items: center;
+        width: 70%;
+        text-align: center;
+        border: 1px solid black;
+        margin-bottom: 50px;
+    }
+    ul {
+        flex-direction: column;
+        border: 1px solid black;
+        align-items: center;
+    }
+    #contact {
+        bottom: -110px;
+    }
+    hr {
+        display: none;
     }
 }
 
-@media screen and (max-width: 480px) {
-    header {
-        background-color: yellow;
+@media screen and (max-width: 460px) {
+    html {
+        display: flex;
     }
+
+    header {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        line-height: 1.5;
+        align-items: center;
+        margin: 0 auto;
+    }
+    main {
+        top: 50px;
+    }
+    #contact {
+        bottom: -50px;
+    }
+
 }
