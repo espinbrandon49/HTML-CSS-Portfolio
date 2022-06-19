@@ -16,9 +16,11 @@ header {
     height: 60px;
     width: 100vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 h1 {
@@ -48,8 +50,8 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     gap: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .personalImg {
@@ -75,21 +77,19 @@ h2 {
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap-reverse;
-    gap: 10px;
     margin: 0 auto;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 article {
-    width: 590px;
+    width: fit-content;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
-
 }
 
 h3 {
@@ -99,6 +99,7 @@ h3 {
 .workImg {
     width: 586px;
     border: 10px solid snow;
+    width: 450px;
 }
 
 .description {
@@ -115,7 +116,7 @@ h3 {
     width: 100%;
     border: none;
     padding-left: 10px;
-padding-right: 10px;
+    padding-right: 10px;
 }
 
 .firstImage {
@@ -127,7 +128,7 @@ padding-right: 10px;
 }
 
 .firstDescription h3 {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 1.5;
 }
 
@@ -153,7 +154,6 @@ padding-right: 10px;
     padding-bottom: 110px;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 #contact p {
@@ -163,7 +163,7 @@ padding-right: 10px;
 
 ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-size: 20px;
 }
 
@@ -176,11 +176,17 @@ ul {
     #contact {
         align-items: center;
     }
+
+    ul {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
     header {
         flex-direction: column;
+        line-height: 1.25;
+        height: fit-content;
     }
 
     nav {
@@ -194,24 +200,31 @@ ul {
     #about {
         flex-direction: column;
         align-items: center;
-        
     }
 
     .greeting {
         align-items: center;
         width: 70%;
         text-align: center;
-        border: 1px solid black;
+        border: 1px solid grey;
         margin-bottom: 50px;
     }
+
+    #contact {
+        width: 99%;
+        height: fit-content;
+        border: 1px solid grey;
+        margin-top: 120px;
+        bottom: 20px;
+        padding-bottom: 0;
+    }
+
     ul {
         flex-direction: column;
-        border: 1px solid black;
         align-items: center;
+        height: fit-content;
     }
-    #contact {
-        bottom: -110px;
-    }
+
     hr {
         display: none;
     }
@@ -222,19 +235,21 @@ ul {
         display: flex;
     }
 
+    main {
+        top: 25px;
+    }
+
     header {
         position: relative;
         width: fit-content;
-        height: fit-content;
-        line-height: 1.5;
         align-items: center;
         margin: 0 auto;
     }
-    main {
-        top: 50px;
-    }
-    #contact {
-        bottom: -50px;
-    }
 
+    #contact {
+        width: 99%;
+        bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
