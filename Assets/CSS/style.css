@@ -40,6 +40,7 @@ a:hover {
 main {
     position: relative;
     top: 110px;
+
 }
 
 #about {
@@ -47,6 +48,8 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     gap: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .personalImg {
@@ -72,16 +75,19 @@ h2 {
     flex-wrap: wrap-reverse;
     gap: 10px;
     margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 article {
-    width: 594px;
+    width: 590px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 50px;
+
 }
 
 h3 {
@@ -89,7 +95,7 @@ h3 {
 }
 
 .workImg {
-    width: 590px;
+    width: 586px;
     border: 10px solid snow;
 }
 
@@ -132,6 +138,11 @@ h3 {
     position: relative;
     bottom: -110px;
     padding-bottom: 110px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 #contact p {
@@ -153,11 +164,18 @@ ul {
     header {
         background-color: blue;
     }
+#contact {
+    align-items: center;
+}
+
 }
 
 @media screen and (max-width: 768px) {
     header {
         background-color: orange;
+    }
+    #about {
+        
     }
 }
 
