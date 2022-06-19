@@ -1,159 +1,168 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
 * {
-  font-family: "Lora", serif;
-  /**/
+    font-family: "Lora", serif;
 }
+
 hr {
-  max-width: 1200px;
-  margin: 50px auto;
+    max-width: 1200px;
+    margin: 50px auto;
 }
 
 header {
-  position: fixed;
-  top: 0px;
-  z-index: 2;
-  height: 60px;
-  width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
 }
 
 h1 {
-  font-size: 40px;
-  padding-left: 10px;
+    font-size: 40px;
 }
 
 nav {
-  display: flex;
-  justify-content: end;
-  gap: 50px;
-  width: 50vw;
-  padding-right: 40px;
-  font-size: 20px;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    width: 50vw;
+    font-size: 20px;
 }
 
 a:hover {
-  color: rgb(116, 116, 116);
+    color: rgb(116, 116, 116);
 }
 
 main {
-  position: relative;
-  top: 110px;
+    position: relative;
+    top: 110px;
 }
 
 #about {
-display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 50px;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
 }
 
 .personalImg {
-  width: 300px;
+    width: 300px;
 }
+
 .greeting {
-  line-height: 1.5;
-    display: flex;
-    flex-direction: column;
+    line-height: 1.5;
 }
+
 h2 {
-  font-size: 60px;
-  color: rgb(255, 89, 37);
+    font-size: 60px;
+    color: rgb(255, 89, 37);
 }
+
 .about {
-  font-size: 30px;
-  word-wrap: normal;
+    font-size: 30px;
 }
 
 #work {
-  max-width: 1200px;
-  display: flex;
-  flex-wrap: wrap-reverse;
-  gap: 10px;
-  margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    margin: 0 auto;
 }
 
 article {
-  width: 594px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
+    width: 594px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
 h3 {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .workImg {
-  width: 590px;
-  border: 10px solid snow;
+    width: 590px;
+    border: 10px solid snow;
 }
 
 .description {
-  width: fit-content;
-  position: absolute;
-  transform: translateY(-170%);
-  backdrop-filter: blur(8px);
-  padding: 5px;
-  line-height: 1.25;
-  border-radius: 5px;
+    width: fit-content;
+    position: absolute;
+    transform: translateY(-170%);
+    backdrop-filter: blur(8px);
+    padding: 5px;
+    line-height: 1.25;
+    border-radius: 5px;
 }
 
 #firstArticle {
-  width: 100%;
-  border: none;
+    width: 100%;
+    border: none;
 }
 
 .firstImage {
-  width: 90%;
+    width: 90%;
 }
+
 .firstDescription {
-  border: 1px solid goldenrod;
+    border: 1px solid goldenrod;
 }
+
 .firstDescription h3 {
-  font-size: 40px;
-  line-height: 1.5;
+    font-size: 40px;
+    line-height: 1.5;
 }
 
 .firstDescription p {
-  font-size: 20px;
+    font-size: 20px;
 }
 
 #contact {
-  max-width: 1200px;
-  margin: 0 auto;
-  line-height: 1.5;
-  padding-left: 10px;
-  position: relative;
-  bottom: -110px;
-  padding-bottom: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+    line-height: 1.5;
+    position: relative;
+    bottom: -110px;
+    padding-bottom: 110px;
 }
 
 #contact p {
-  font-size: 40px;
-  font-weight: 700;
+    font-size: 40px;
+    font-weight: 700;
 }
 
 ul {
-  display: flex;
-  gap: 50px;
-  font-size: 20px;
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
 }
+
 .email {
-  user-select: all;
+    user-select: all;
 }
 
 @media screen and (max-width: 1024px) {
+    header {
+        background-color: blue;
+    }
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        background-color: orange;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    header {
+        background-color: yellow;
+    }
 }
