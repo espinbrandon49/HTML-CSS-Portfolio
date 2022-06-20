@@ -1,7 +1,7 @@
 # HTML-CSS-Portfolio
 
 ## Description
-This website is a collection of web applications with deployed links I developed using HTML, CSS, Git, GiHhub, Chrome DevTools in combination so that potential employeee's can view samples of my work to assess my candidacy for an open position.
+This website is a collection of web applications with deployed links I developed using HTML, CSS, Git, GitHub, Chrome DevTools in combination so that potential employeee's can view samples of my work to assess my candidacy for an open position.
 
 * When you resize the page or view the site on various screens and devices, then you are presented with a responsive layout that adapts to your viewport.
 
@@ -17,7 +17,7 @@ This website is a collection of web applications with deployed links I developed
 ### Git clone - https://github.com/espinbrandon49/HTML-CSS-Portfolio
 
 ## Tools
-### HTML, CSS, Git, GiHhub, Chrome DevTools
+### HTML, CSS, Git, GitHub, Chrome DevTools
 
 #### HTML
 * The source code uses semantic HTML elements and has a concise, descriptive title.
@@ -34,7 +34,7 @@ This website is a collection of web applications with deployed links I developed
 #### Git/GitHub
 * The Application is deployed at a live URL and loads with no errors.
 * Repository follows best practices for file structure and naming conventions.
-* Repository contains multiple descriptive commit messages follow along as the application development story unfolds.
+* Repository contains multiple descriptive commit messages that follow along as the application development story unfolds.
 * Repository contains quality readme with description, screenshot, link to deployed application.
 * GitHub repository contains application code.
 
@@ -50,16 +50,14 @@ Deployed Link: https://espinbrandon49.github.io/HTML-CSS-Portfolio/
 Jerome Chenette
 
 ## Screenshots
-  ## 320px — 480px: Mobile devices
+### 320px — 480px: Mobile devices
+  ![screenshot at 420px resolution](./Assets/images/Screenshot420.png)
 
-
-
-
-
-
-
-
+### 481px — 768px: iPads, Tablets
+  ![screenshot at 768px resolution](./Assets/images/Screenshot768.png)
   
-  • 481px — 768px: iPads, Tablets
-  • 769px — 1024px: Small screens, laptops
-  • 1025px — 1200px: Desktops, large screens*/
+### 769px — 1024px: Small screens, laptops
+  ![screenshot at 1024px resolution](./Assets/images/Screenshot1024.png)
+
+### 1025px — 1200px: Desktops, large screens
+  ![screenshot at 1200px resolution](./Assets/images/Screenshot1200.png)
