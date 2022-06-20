@@ -2,7 +2,6 @@
 
 * {
     font-family: "Lora", serif;
-
 }
 
 .hr1 {
@@ -40,7 +39,6 @@ a:hover {
 main {
     position: relative;
     top: 110px;
-
 }
 
 #about {
@@ -97,7 +95,7 @@ h3 {
 .workImg {
     border: 10px solid snow;
     /*width: 350px;*/
-    width: 410px;
+    width: 400px;
 }
 
 .description {
