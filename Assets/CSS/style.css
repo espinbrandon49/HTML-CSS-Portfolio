@@ -234,15 +234,18 @@ ul {
     main {
         top: 25px;
     }
-.workImg {
-    width: 380px;
-}
+
+    .workImg {
+        width: 380px;
+    }
+
     header {
         position: relative;
         width: fit-content;
         align-items: center;
         margin: 0 auto;
     }
+
     #contact {
         bottom: 0;
         margin-top: 0;
