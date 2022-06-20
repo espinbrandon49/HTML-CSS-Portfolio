@@ -95,9 +95,9 @@ h3 {
 }
 
 .workImg {
-    width: 586px;
     border: 10px solid snow;
-    width: 450px;
+    width: 350px;
+    /*width: 450px;*/
 }
 
 .description {
