@@ -94,7 +94,6 @@ h3 {
 
 .workImg {
     border: 10px solid snow;
-    /*width: 350px;*/
     width: 400px;
 }
 
@@ -166,7 +165,6 @@ ul {
 .email {
     user-select: all;
 }
-
 
 @media screen and (max-width: 1024px) {
     #contact {
@@ -251,5 +249,4 @@ ul {
         margin-top: 0;
         margin-bottom: 0;
     }
-
 }
