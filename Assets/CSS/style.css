@@ -234,7 +234,9 @@ ul {
     main {
         top: 25px;
     }
-
+.workImg {
+    width: 350px;
+}
     header {
         position: relative;
         width: fit-content;
