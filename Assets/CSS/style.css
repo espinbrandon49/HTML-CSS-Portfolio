@@ -97,7 +97,7 @@ h3 {
 .workImg {
     border: 10px solid snow;
     /*width: 350px;*/
-    width: 420px;
+    width: 410px;
 }
 
 .description {
@@ -242,9 +242,7 @@ ul {
         width: fit-content;
         align-items: center;
         margin: 0 auto;
-
     }
-
     #contact {
         bottom: 0;
         margin-top: 0;
