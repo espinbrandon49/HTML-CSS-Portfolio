@@ -14,7 +14,7 @@ This website is a collection of web applications with deployed links I developed
 * My contact section contains 4 different ways to connect with me that I can quickly respond to.
 
 ## Installation
-### Git clone - https://github.com/espinbrandon49/HTML-CSS-Portfolio
+### Git clone - git@github.com:espinbrandon49/HTML-CSS-Portfolio.git
 
 ## Tools
 ### HTML, CSS, Git, GitHub, Chrome DevTools
@@ -38,8 +38,8 @@ This website is a collection of web applications with deployed links I developed
 * Repository contains quality readme with description, screenshot, link to deployed application.
 * GitHub repository contains application code.
 
-GitHub repository: https://github.com/espinbrandon49/HTML-CSS-Portfolio
-Deployed Link: https://espinbrandon49.github.io/HTML-CSS-Portfolio/
+* GitHub repository: https://github.com/espinbrandon49/HTML-CSS-Portfolio
+* Deployed Link: https://espinbrandon49.github.io/HTML-CSS-Portfolio/
 
 #### Chrome DevTools
 * My portfolio is a responsive web application, responsive to various screen resolutions, including tablets and mobile.  Using DevTools, I viewed my media queries and application on different device screens.
